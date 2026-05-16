@@ -1,11 +1,13 @@
 package com.example.Backend.Entity;
 
-// import com.wellebee.sanskrit.Sanscript;
+import org.springframework.stereotype.Component;
 
-// @Component
+@Component
 public class TanglishToTamilConverter {
 
-   public String converter(String query){
-      return query;
-   }
+    public String converter(String query) {
+
+        // TEMP simple return
+        return query;
+    }
 }
